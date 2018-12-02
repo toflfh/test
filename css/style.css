@@ -1,0 +1,69 @@
+
+
+body{
+    margin: 0;
+    font-family: '나눔고딕'
+             
+    
+    
+}
+
+.conB h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.conB .text {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+    
+}
+
+
+`
+.conB p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.8;
+    object-fit: 0.8;
+ 
+}
+
+
+
+.conB a{
+     color: #f71e1e;
+    text-decoration: none;
+   
+}
+
+
+
+
+.conB a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+
+@media (min-width:768px){
+    .conB .container{
+        display: flex;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+    .conB .text{
+        flex: 5;
+        
+    }
+    
+    
+}
+
+
